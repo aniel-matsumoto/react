@@ -1,0 +1,6 @@
+.mesaAtual {
+  display: flex;
+  justify-content: start;
+  background-color: green;
+  color: white;
+}
