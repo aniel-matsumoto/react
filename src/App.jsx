@@ -11,6 +11,10 @@ import ListaProdutos from "./componentes/ListaProdutos/ListaProdutos";
 import VerificarIdade from "./componentes/VerificarIdade/VerificarIdade";
 import NumerosPares from "./componentes/NumerosPares/NumerosPares";
 import NumeroImpar from "./componentes/NumerosImpar/NumeroImpar";
+import Soma from "./componentes/Soma/Soma";
+import Subtracao from "./componentes/Subtracao/Subtracao";
+import Divisao from "./componentes/Divisao/Divisao";
+import Multiplicacao from "./componentes/Multiplicacao/Multiplicacao";
 
 function App() {
   return (
@@ -112,7 +116,35 @@ function App() {
         <NumeroImpar />
       </span>
       <hr />
-      <span></span>
+      <span>
+        13.Crie um componente chamado 'Soma' que aceita as props 'num1', 'num2',
+        o componente deve mostrar: O resultado da soma entre os dois números em
+        uma div com o fundo marrom, texto centralizado na cor branca
+        <Soma numero1={10} numero2={20} />
+      </span>
+      <hr />
+      <span>
+        14.Crie um componente chamado 'Subtracao' que aceita as props 'num1',
+        'num2', o componente deve mostrar: O resultado da subtração entre os
+        dois números em uma div com o fundo cinza, texto centralizado na cor
+        branca.
+        <Subtracao numero1={20} numero2={5} />
+      </span>
+      <hr />
+      <span>
+        15.Crie um componente chamado 'Divisao' que aceita as props 'num1',
+        'num2', o componente deve mostrar: O resultado da divisão entre os dois
+        números em uma div com o fundo laranja, texto centralizado na cor azul.
+        <Divisao numero1={20} numero2={2} />
+      </span>
+      <hr />
+      <span>
+      16.Crie um componente chamado 'Multiplicacao' que aceita as props 'num1', 'num2',
+o componente deve mostrar:
+O resultado da multiplicação entre os dois números em uma div com o fundo
+laranja, texto centralizado na cor azul
+        <Multiplicacao numero1 ={3} numero2={5}/>
+      </span>
     </>
   );
 }

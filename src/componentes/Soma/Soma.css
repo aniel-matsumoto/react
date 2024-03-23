@@ -1,0 +1,6 @@
+.resultado {
+  background-color: red;
+  justify-content: center;
+  color: white;
+  display: flex;
+}
